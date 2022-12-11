@@ -60,7 +60,6 @@ section {
     margin: 1%;
 
 }
-
 .nugget {
     display:flex;
     justify-content: space-around;
@@ -74,9 +73,30 @@ section {
     max-width:24%;
     max-height: 25%;
     object-fit: cover;
-}
-div {
+    background-color: #302244;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    margin: 20px auto;
+      }
+.goof {
     font-size: 48px;
     display: flex;
     color: var(--blue);
 }
+aside {
+    display: flex;
+    color: var(--blue);
+    flex-direction: column;
+    font-size:24px;
+    text-align: center;
+    max-width: 100%;
+    min-height: 400px;
+    justify-content: center;
+    background-color: var(--black);
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    margin: 100px auto;
+    width: 33%;
+      }
