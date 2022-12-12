@@ -98,8 +98,9 @@ aside {
     .pics {
         position: relative;
         display:flex;
+        justify-content: space-around;
         flex-direction: row;
-        min-width:24%;
+        width:24%;
         min-height:25%;
         background: rgba(0, 0, 0, 0.0);
 
@@ -195,15 +196,16 @@ aside {
         font-weight: 500;
         position:absolute;
         color: var(--blue);
-        left: 40%;
+        bottom: 20%;
+        align-items: center;
     }
     .imgdesc4 {
         font-size: 1.5em;
         display: flex;
         position: absolute;
-        bottom: 60%;
-        right: 5%; 
-        color: var(--blue);
+        top: -2%;
+        left: 25%; 
+        color: yellow;
     }
     .overlay4 {
         display:flex;
@@ -320,7 +322,7 @@ aside {
         font-weight: 500;
         position:absolute;
         color: yellow;
-        left: 10%;
+        left: 5%;
     }
     .imgdesc8 {
         font-size: 1.5em;
@@ -348,13 +350,20 @@ aside {
     }
     .nugget img {
         display:flex;
-        position: relative;
-        min-width:24%;
+        justify-content: space-between;
+        min-width: 24%;
         min-height: 25%;
         object-fit: cover;
         background-color: #302244;
-        border: 5px solid transparent;
+        border: 6px solid transparent;
         border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
         border-image-slice: 1;
         margin: 20px auto;
-          }
+          }          
+     .nugget {
+        display:flex;
+            justify-content: space-between;
+            flex-direction: column;
+            flex-flow: row;
+            max-width: 100%;
+        }
