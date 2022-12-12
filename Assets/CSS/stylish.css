@@ -60,25 +60,7 @@ section {
     margin: 1%;
 
 }
-.nugget {
-    display:flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-flow: wrap;
-    max-height: 40%;
-    max-width: 100%;
-}
-.nugget img {
-    display:flex;
-    max-width:24%;
-    max-height: 25%;
-    object-fit: cover;
-    background-color: #302244;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;
-    margin: 20px auto;
-      }
+
 .goof {
     font-size: 48px;
     display: flex;
@@ -100,3 +82,279 @@ aside {
     margin: 100px auto;
     width: 33%;
       }
+.overlay {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .pics {
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        min-width:24%;
+        min-height:25%;
+        background: rgba(0, 0, 0, 0.0);
+
+    }
+    .title1 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+    }
+    .imgdesc1 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 50%;
+        left: 20%; 
+        color: var(--blue);
+    }
+    .overlay:hover {
+        opacity: 1;
+    }
+    .overlay2:hover {
+        opacity: 1;
+    }
+    .title2 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+        left: 40%;
+    }
+    .imgdesc2 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 40%;
+        right: 20%; 
+        color: var(--blue);
+    }
+    .overlay2 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .title3 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+        left: 40%;
+    }
+    .imgdesc3 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 10%;
+        right: 5%; 
+        color: var(--blue);
+    }
+    .overlay3 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .overlay3:hover {
+        opacity: 1;
+    }
+    .overlay4:hover {
+        opacity: 1;
+    }
+    .title4 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+        left: 40%;
+    }
+    .imgdesc4 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 60%;
+        right: 5%; 
+        color: var(--blue);
+    }
+    .overlay4 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .title5 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+        left: 40%;
+    }
+    .imgdesc5 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 30%;
+        left: 3%; 
+        color: var(--blue);
+    }
+    .overlay5 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .overlay5:hover {
+        opacity: 1;
+    }
+    .title6 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+        left: 40%;
+    }
+    .imgdesc6 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 30%;
+        right: 3%; 
+        color: var(--blue);
+    }
+    .overlay6 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .overlay6:hover {
+        opacity: 1;
+    }
+    .title7 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: var(--blue);
+        left: 40%;
+    }
+    .imgdesc7 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 34%;
+        right: 32%; 
+        color: var(--blue);
+    }
+    .overlay7 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .overlay7:hover {
+        opacity: 1;
+    }
+    .title8 {
+        font-size: 2em;
+        display: flex;
+        font-weight: 500;
+        position:absolute;
+        color: yellow;
+        left: 10%;
+    }
+    .imgdesc8 {
+        font-size: 1.5em;
+        display: flex;
+        position: absolute;
+        bottom: 60%;
+        right: 28%; 
+        color: yellow;
+    }
+    .overlay8 {
+        display:flex;
+        top: 6%;
+        left: 0%;
+        min-width:100%;
+        min-height:91%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        opacity: 0.25s;
+    }
+    .overlay8:hover {
+        opacity: 1;
+    }
+    .nugget img {
+        display:flex;
+        position: relative;
+        min-width:24%;
+        min-height: 25%;
+        object-fit: cover;
+        background-color: #302244;
+        border: 5px solid transparent;
+        border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+        border-image-slice: 1;
+        margin: 20px auto;
+          }
