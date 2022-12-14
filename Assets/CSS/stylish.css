@@ -82,7 +82,7 @@ aside {
     margin: 100px auto;
     width: 33%;
       }
-.overlay {
+.overlay, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8 {
         display:flex;
         top: 6%;
         left: 0%;
@@ -120,10 +120,7 @@ aside {
         left: 20%; 
         color: var(--blue);
     }
-    .overlay:hover {
-        opacity: 1;
-    }
-    .overlay2:hover {
+    .overlay:hover, .overlay2:hover, .overlay3:hover, .overlay4:hover, .overlay5:hover, .overlay6:hover, .overlay7:hover, .overlay8:hover {
         opacity: 1;
     }
     .title2 {
@@ -142,19 +139,6 @@ aside {
         right: 20%; 
         color: var(--blue);
     }
-    .overlay2 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
     .title3 {
         font-size: 2em;
         display: flex;
@@ -170,25 +154,6 @@ aside {
         bottom: 10%;
         right: 5%; 
         color: var(--blue);
-    }
-    .overlay3 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
-    .overlay3:hover {
-        opacity: 1;
-    }
-    .overlay4:hover {
-        opacity: 1;
     }
     .title4 {
         font-size: 2em;
@@ -207,19 +172,6 @@ aside {
         left: 25%; 
         color: yellow;
     }
-    .overlay4 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
     .title5 {
         font-size: 2em;
         display: flex;
@@ -235,22 +187,6 @@ aside {
         bottom: 30%;
         left: 3%; 
         color: var(--blue);
-    }
-    .overlay5 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
-    .overlay5:hover {
-        opacity: 1;
     }
     .title6 {
         font-size: 2em;
@@ -268,22 +204,6 @@ aside {
         right: 3%; 
         color: var(--blue);
     }
-    .overlay6 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
-    .overlay6:hover {
-        opacity: 1;
-    }
     .title7 {
         font-size: 2em;
         display: flex;
@@ -299,22 +219,6 @@ aside {
         bottom: 34%;
         right: 32%; 
         color: var(--blue);
-    }
-    .overlay7 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
-    .overlay7:hover {
-        opacity: 1;
     }
     .title8 {
         font-size: 2em;
@@ -332,23 +236,7 @@ aside {
         right: 28%; 
         color: yellow;
     }
-    .overlay8 {
-        display:flex;
-        top: 6%;
-        left: 0%;
-        min-width:100%;
-        min-height:91%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        opacity: 0;
-        opacity: 0.25s;
-    }
-    .overlay8:hover {
-        opacity: 1;
-    }
-    .nugget img {
+        .nugget img {
         display:flex;
         justify-content: space-between;
         min-width: 24%;
@@ -359,11 +247,91 @@ aside {
         border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
         border-image-slice: 1;
         margin: 20px auto;
-          }          
-     .nugget {
-        display:flex;
-            justify-content: space-between;
-            flex-direction: column;
-            flex-flow: row;
-            max-width: 100%;
+        }
+        .fine-print {
+            display:flex;
+            justify-content: flex-start;
+            font-family: 'Courier New', Courier, monospace;
+            color: yellow;
+        }
+        .Contact {
+            display:flex;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            color: var(--blue);
+            position: relative;
+            margin-top: 500px;
+            margin-bottom: 0px;
+            
+        }  
+        footer {
+            display:flex;
+            justify-content: space-around;
+            min-width: 24%;
+            min-height: 25%;
+            object-fit: cover;
+            margin: 20px auto;
+            margin-top: 0px;
+            align-items: center;
+            border: 6px solid;
+            border-color: var(--blue);
+            margin-left: 1%;
+            margin-right: 1%;
+              }   
+        .undef {
+            border: none;
+            margin-right: 18%;
+        }
+        footer img {
+            max-width:40%;
+            max-height:30%;
+            display:flex;
+            margin: 5%;
+            object-fit: cover;
+        }
+        .nugget {
+            display:flex;
+                justify-content: space-between;
+                flex-direction: column;
+                flex-flow: row;
+                max-width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+        @media screen and (max-width:1200px)  {
+        .undef {
+            font-size: 1.25em;
+        }
+        .title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8, .imgdesc1, .imgdesc2, .imgdesc3, .imgdesc4, .imgdesc5, .imgdesc6, .imgdesc7, .imgdesc8 {
+            font-size: 1.25em;
+            margin-top: 20px;
+        }
+        }
+        @media screen and (max-width:700px) {
+        aside {
+        font-size:.75em;
+        }
+        .undef {
+        font-size: .75em;
+        }
+        .title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8, .imgdesc1, .imgdesc2, .imgdesc3, .imgdesc4, .imgdesc5, .imgdesc6, .imgdesc7, .imgdesc8 {
+        font-size: .5em;
+        margin-top: 20px;
+        }
+        }
+       @media screen and (max-width:300px) {
+        aside {
+        font-size:.5em;
+        }
+        .Contact {
+            font-size: 1em;
+        }
+        .undef {
+            font-size: .5em;
+        }
+        .fine-print {
+            font-size: .6em; 
+        }
         }
